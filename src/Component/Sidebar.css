@@ -1,0 +1,59 @@
+.sidebar {
+    flex: 0.3!important;
+    color: white!important;
+    background-color: var(--slack-color)!important;
+    border-top: 1px solid #49274b!important;
+    max-width: 260px!important;
+    overflow-y: scroll;
+}
+.sidebar::-webkit-scrollbar{
+    background-color: var(--slack-color);
+    border-radius: 20px;
+    width: 9x;
+}
+.sidebar::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: #49274b; 
+}
+.sidebar__header {
+    display: flex!important;
+    border-bottom: 1px solid #49274b!important;
+    padding-bottom: 10px!important;
+    padding: 13px!important;
+}
+.sidebar__info {
+    flex: 1!important;
+}
+.sidebar__info > h2 {
+    font-size: 15px!important;
+    font-weight: 900!important;
+    margin-bottom: 5px!important;
+}
+.sidebar__info > h3 {
+    display: flex!important;
+    align-items: center!important;
+    font-weight: 400!important;
+    font-size: 13px!important;
+}
+.sidebar__info > h3 > .MuiSvgIcon-root {
+    font-size: 14px!important;
+    margin-top: 1px!important;
+    margin-right: 2px!important;
+    color: green!important;
+}
+
+.sidebar > hr {
+    margin-top:  10px!important;
+    margin-bottom: 10px!important;
+    border: 1px solid #49274b!important;
+}
+.sidebar  .MuiSvgIcon-root {
+    font-size: 50px!important;
+}
+.sidebar__header > .MuiSvgIcon-root {
+    padding: 8px!important;
+    color: #49274b!important;
+    font-size: 35px!important;
+    background-color: white!important;
+    border-radius: 999px!important;
+}

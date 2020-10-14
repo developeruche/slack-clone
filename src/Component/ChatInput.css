@@ -1,0 +1,17 @@
+.chatInput > form {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.form-control {
+    position: fixed;
+    bottom: 30px;
+    width: 70%;
+    padding: 20px;
+    left: 20%;
+}
+
+.chatInput .btn {
+    display: none;
+}
